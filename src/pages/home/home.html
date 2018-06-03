@@ -1,0 +1,30 @@
+ <script src="assets/js/angular.js"></script>
+  <script src="assets/js/Script.js"></script>
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h3>Ionic Menu Starter</h3>
+
+  <p>
+    If you get lost, the
+    <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
+  </p>
+  <button ion-button secondary menuToggle>Toggle Menu</button>
+  <body ng-app="sistema" ng-controller="SistemaCtrl">
+      <ion-item>
+          <ion-label fixed>CPF </ion-label>
+          <ion-input type="text" ng-Model="cpf">{{CPF}}</ion-input>
+        </ion-item>
+        <button ion-button ng-click="Getverificaacesso(cpf);">teste</button>
+        <ion-label fixed>Nome: {{CPF}}</ion-label>
+  </body>
+
+
+</ion-content>
