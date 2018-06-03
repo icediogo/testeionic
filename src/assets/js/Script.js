@@ -7,7 +7,7 @@ angular.module('sistema').controller('SistemaCtrl', function ($scope, $http, $lo
     $scope.FnInit = function () {
 
     };
-    var ambiente = "http://127.0.0.1:8080/Ionic";
+    var ambiente = "https://fabricadesite.000webhostapp.com/ionic/ionic/ionic";
     //Funções
     //-- Função carrega modal cadastro/login --//
     $scope.Getverificaacesso = function (cpf) {
